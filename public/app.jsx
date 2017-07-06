@@ -78,7 +78,6 @@ var Greeter =  React.createClass({
 // LESSON #3: Sets the state only if data has been entered
 		this.setState(updates);	
 	},
-
  // this is a built in function
 	render: function () {
 		var name = this.state.name;
